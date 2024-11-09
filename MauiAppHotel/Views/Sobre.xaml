@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre">
+    <VerticalStackLayout>
+        <Label 
+            Text="O hotel conta com as melhores acomodações da cidade,
+            com 5 estrelas de avaliação, além de contar com diversas áreas de lazer,e a melhor gastronomia para passar suas férias"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label Text="Nome do desenvolvidor:"
+               FontFamily="Lato"
+               FontSize="25"
+               TextColor="{StaticResource Magenta}"/>
+        <Label Text="Nicole Costa Rodrigues"
+               FontFamily="Lato"
+               FontSize="25"/>
+        <Label Text="Ano do Desenvolvimento:"
+               FontFamily="Lato"
+               FontSize="25"
+               TextColor="{StaticResource Magenta}"/>
+        <Label Text="2024"
+               FontFamily="Lato"
+               FontSize="25"/>
+        <Button
+            Text="Voltar"
+            Clicked="Button_Clicked"
+           VerticalOptions="EndAndExpand"
+           HorizontalOptions="End"/>
+    </VerticalStackLayout>
+</ContentPage>  
